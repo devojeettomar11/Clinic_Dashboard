@@ -216,7 +216,7 @@ const BookingDetailPage = () => {
                 </div>
                 <div className="flex flex-wrap gap-3">
                   {booking.reportUrls.map((url, i) => (
-                    <a key={i} href={url.startsWith('http') ? url : `http://localhost:5000${url}`}
+                    <a key={i} href={url.startsWith('http') ? url : `https://clinic-dashboard-38ba.onrender.com${url}`}
                       target="_blank" rel="noopener noreferrer"
                       className="px-4 py-2.5 rounded-xl bg-gray-50 border border-gray-100 text-xs font-bold text-gray-600 hover:bg-white hover:border-teal-200 transition-all">
                       📄 Result {i + 1}
