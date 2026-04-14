@@ -2,7 +2,6 @@
 
 A complete Clinic Admin Portal with React frontend + Node.js/Express backend + MongoDB Atlas.
 
----
 
 ## 📁 Project Structure
 
@@ -26,7 +25,7 @@ cp .env.example .env
 npm run dev
 ```
 
-**`.env` variables:**
+**`.env` variables:***
 ```
 PORT=5000
 MONGO_URI=mongodb+srv://<user>:<pass>@cluster0.xxxxx.mongodb.net/medyghar
